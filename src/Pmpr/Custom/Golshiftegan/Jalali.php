@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             693025242694a             |
+    |             693401c982bc9             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Golshiftegan; class Jalali extends Container { public function kgquecmsgcouyaya() { $this->aqaqisyssqeomwom('jalali_datepicker_custom_colors', [$this, 'acumoyeimyciuuuo']); } public function acumoyeimyciuuuo($ukqisiguweqciuei) { $ukqisiguweqciuei['date-item-hover-bg'] = '#008612'; $ukqisiguweqciuei['date-item-selected-bg'] = '#094E10'; $ukqisiguweqciuei['header-row-bg'] = '#094E10'; $ukqisiguweqciuei['header-row-color'] = '#FFF'; return $ukqisiguweqciuei; } }
+ namespace Pmpr\Custom\Golshiftegan; class Jalali extends Container { public function kgquecmsgcouyaya() { $this->aqaqisyssqeomwom('jalali_datepicker_custom_colors', [$this, 'acumoyeimyciuuuo']); } public function acumoyeimyciuuuo($ukqisiguweqciuei) { $ukqisiguweqciuei['header-row-bg'] = '#008612'; $ukqisiguweqciuei['header-row-color'] = '#FFF'; $ukqisiguweqciuei['date-item-hover-bg'] = '#094E10'; $ukqisiguweqciuei['date-item-selected-bg'] = '#008612'; $ukqisiguweqciuei['persian-to-gregorian-btn'] = '"Dana", Arial, sans-serif'; return $ukqisiguweqciuei; } }
