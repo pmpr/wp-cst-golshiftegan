@@ -1,0 +1,1732 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Filefox Custom Pmpr\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2025-12-08 14:49+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: build\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+"X-Poedit-SearchPathExcluded-3: asset\n"
+"X-Poedit-SearchPathExcluded-4: build\n"
+
+#: src/Pmpr/Custom/Golshiftegan/Golshiftegan.php:20
+msgid "Golshiftegan Custom"
+msgstr "سفارشی گلشیفتگان"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:62
+#: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:48
+msgctxt "Order status"
+msgid "Failed"
+msgstr "پراخت ناموفق"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:66
+#: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:24
+msgctxt "Order status"
+msgid "Pending payment"
+msgstr "در انتظار پرداخت"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:70
+#: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:40
+msgctxt "Order status"
+msgid "Shipped"
+msgstr "ارسال شده"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:74
+#: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:32
+msgctxt "Order status"
+msgid "Approved"
+msgstr "تایید شده"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:78
+#: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:56
+msgctxt "Order status"
+msgid "Refunded"
+msgstr "مرجوع شده"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:82
+#: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:36
+msgctxt "Order status"
+msgid "Preparing"
+msgstr "در حال آماده سازی"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:86
+#: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:44
+msgctxt "Order status"
+msgid "Delivered"
+msgstr "تحویل مشتری"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:90
+#: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:52
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr "لغو شده"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:94
+#: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:28
+msgctxt "Order status"
+msgid "Pending approval"
+msgstr "در انتظار تایید"
+
+#: template/php/plugin/dokan/dashboard/orders-widget.php:5
+msgid "Orders"
+msgstr "سفارش‌ها"
+
+#: template/php/plugin/dokan/dashboard/orders-widget.php:12
+msgid "Total"
+msgstr "جمع کل"
+
+#~ msgid "Articles"
+#~ msgstr "مقالات"
+
+#~ msgid "Specialized Articles"
+#~ msgstr "مقالات تخصصی"
+
+#~ msgid "Specialized Article"
+#~ msgstr "مقاله تخصصی"
+
+#~ msgid "Material"
+#~ msgstr "ماهیت"
+
+#~ msgid "Author"
+#~ msgstr "نویسنده"
+
+#~ msgid "All Authors"
+#~ msgstr "همه نویسندگان"
+
+#~ msgid "All Teams"
+#~ msgstr "همه تیم‌ها"
+
+#~ msgid "Preview"
+#~ msgstr "پیش‌نمایش"
+
+#, php-format
+#~ msgid "Preview &#8220;%s&#8221;"
+#~ msgstr "پیشنمایش &#8220;%s&#8221;"
+
+#~ msgid "Team"
+#~ msgstr "تیم"
+
+#~ msgid "Slug"
+#~ msgstr "نامک"
+
+#~ msgid "Word Count"
+#~ msgstr "تعداد کلمه"
+
+#~ msgid "No team assigned"
+#~ msgstr "تیمی منتسب نشده است"
+
+#~ msgid "News"
+#~ msgstr "اخبار"
+
+#~ msgid "The News"
+#~ msgstr "خبر"
+
+#~ msgid "Change Logs"
+#~ msgstr "گزارشات تغییرات"
+
+#~ msgid "Version"
+#~ msgstr "نسخه"
+
+#~ msgid "Changes"
+#~ msgstr "تغییرات"
+
+#~ msgid "Parent"
+#~ msgstr "مادر"
+
+#~ msgid "Material can not be empty, please fill it."
+#~ msgstr "فیلد ماهیت نمی‌تواند خالی باشد، لطفا آن را پر کنید."
+
+#~ msgid "Posts Fallback Image"
+#~ msgstr "تصویر جایگزین نوشته‌ها"
+
+#~ msgid "Displayed when a related post has no image."
+#~ msgstr "در صورت عدم وجود تصویر نوشته، این تصویر نمایش داده می‌شود."
+
+#~ msgid "Short Description"
+#~ msgstr "توضیح کوتاه"
+
+#~ msgid "Materials"
+#~ msgstr "ماهیت‌ها"
+
+#~ msgid "Material for products"
+#~ msgstr "ماهیت برای محصولات"
+
+#~ msgid "Search Placeholder"
+#~ msgstr "متن نمایشی داخل فرم جستجو"
+
+#~ msgid "Icon"
+#~ msgstr "آیکون"
+
+#~ msgid "Status Change History"
+#~ msgstr "تاریخچه تغییر وضعیت"
+
+#~ msgid "On Hold"
+#~ msgstr "در انتظار بررسی"
+
+#~ msgid "Spam"
+#~ msgstr "هرزنامه"
+
+#~ msgid "Trash"
+#~ msgstr "سطل زباله"
+
+#, php-format
+#~ msgid "%s in %s changed status to %s"
+#~ msgstr "%s در %s وضعیت را به %s تغییر داد"
+
+#~ msgid "Filefox Custom"
+#~ msgstr "سفارشی فایل فاکس"
+
+#~ msgid "Need purchase."
+#~ msgstr "نیاز به خرید."
+
+#~ msgid "can not download requested file."
+#~ msgstr "قادر به  دانلود فایل درخواستی نیستیم."
+
+#~ msgid "Can not find requested file."
+#~ msgstr "قادر به یافتن فایل درخواستی نیستیم."
+
+#~ msgid "Download"
+#~ msgstr "دانلود"
+
+#~ msgid "Can not find related product"
+#~ msgstr "نمی توان محصول مرتبط را پیدا کرد"
+
+#~ msgid "File parameter missing."
+#~ msgstr "پارامتر ضروری ارائه نشده‌اند."
+
+#~ msgid "Start Download"
+#~ msgstr "شروع دانلود"
+
+#~ msgid "Request File"
+#~ msgstr "درخواست فایل"
+
+#~ msgid "Track Request"
+#~ msgstr "پیگیری درخواست"
+
+#~ msgid "Submit Request"
+#~ msgstr "ثبت درخواست"
+
+#~ msgid "Request"
+#~ msgstr "درخواست"
+
+#~ msgid "Provide File"
+#~ msgstr "ارائه فایل"
+
+#~ msgid "Impersonations"
+#~ msgstr "جعل‌های هویت"
+
+#~ msgid "Impersonation"
+#~ msgstr "جعل هویت"
+
+#~ msgid "Admin"
+#~ msgstr "مدیر"
+
+#~ msgid "User"
+#~ msgstr "کاربر"
+
+#~ msgid "Token"
+#~ msgstr "توکن"
+
+#~ msgid "IP"
+#~ msgstr "آی پی"
+
+#~ msgid "User Agent"
+#~ msgstr "یوزر ایجنت‌"
+
+#~ msgid "Expire At"
+#~ msgstr "تاریخ انقضا"
+
+#~ msgid "Created At"
+#~ msgstr "تاریخ ایجاد"
+
+#~ msgid "Must be logged in."
+#~ msgstr "باید وارد سیستم شوید."
+
+#~ msgid "Insufficient permissions."
+#~ msgstr "مجوزهای ناکافی."
+
+#~ msgid "Invalid user."
+#~ msgstr "کاربر نامعتبر است."
+
+#~ msgid "Invalid nonce."
+#~ msgstr "مجوز نامعتبر است."
+
+#~ msgid "Cannot impersonate administrators."
+#~ msgstr "نمی‌توان به عنوان کاربران مدیر وارد سیستم شوید."
+
+#~ msgid "User not found."
+#~ msgstr "کاربر مورد نظر یافت نشد."
+
+#~ msgid "No impersonation active."
+#~ msgstr "جعل هویت فعالی وجود ندارد."
+
+#~ msgid "Invalid or expired impersonation."
+#~ msgstr "جعل هویت نامعتبر یا منقضی شده."
+
+#~ msgid "Impersonation expired."
+#~ msgstr "جعل هویت منقضی شده."
+
+#~ msgid "Original admin account not found."
+#~ msgstr "حساب اصلی مدیر یافت نشد."
+
+#~ msgid "Login As"
+#~ msgstr "ورود به عنوان"
+
+#~ msgid "Administrator Tools"
+#~ msgstr "ابزارهای مدیر کل"
+
+#~ msgid "Login as this user"
+#~ msgstr "ورود به عنوان این کاربر"
+
+#~ msgid "Return to my account"
+#~ msgstr "بازگشت به حساب خودم"
+
+#~ msgid "Return to original admin account"
+#~ msgstr "بازگشت به حساب اصلی مدیر"
+
+#~ msgid "You have no team yet"
+#~ msgstr "شما هنوز تیمی ندارید"
+
+#~ msgid "You are not applied for any agreement yet."
+#~ msgstr "شما هنوز برای هیچ الگوی درآمدی درخواست ثبت نکرده‌اید."
+
+#~ msgid "Access denied."
+#~ msgstr "امکان دسترسی وجود ندارد."
+
+#~ msgid "Your Team"
+#~ msgstr "تیم شما"
+
+#~ msgid "Best Team"
+#~ msgstr "بهترین تیم"
+
+#~ msgid "All Teams Average"
+#~ msgstr "میانگین همه تیم‌ها"
+
+#~ msgid "Worst Team"
+#~ msgstr "بدترین تیم"
+
+#~ msgid "My Team"
+#~ msgstr "تیم من"
+
+#~ msgid "Highest"
+#~ msgstr "بیشترین"
+
+#~ msgid "Average"
+#~ msgstr "میانگین"
+
+#~ msgid "Lowest"
+#~ msgstr "کمترین"
+
+#~ msgid "Me"
+#~ msgstr "من"
+
+#~ msgid "You dont have a team yet."
+#~ msgstr "شما هنوز تیمی ندارید."
+
+#~ msgid "Something is wrong, can not update you profile, please contact us."
+#~ msgstr ""
+#~ "مشکلی وجود دارد، نمی توان پروفایل شما را به روز کرد، لطفاً با ما تماس "
+#~ "بگیرید."
+
+#~ msgid "Additional information update successfully."
+#~ msgstr "اطلاعات تکمیلی با موفقیت به روزرسانی شد."
+
+#, php-format
+#~ msgid "View %s"
+#~ msgstr "مشاهده %s"
+
+#, php-format
+#~ msgid "Edit %s"
+#~ msgstr "ویرایش %s"
+
+#~ msgid "Requested post not exists."
+#~ msgstr "نوشته درخواستی وجود ندارد."
+
+#~ msgid "Post Not Found"
+#~ msgstr "نوشته مورد نظر پیدا نشد"
+
+#~ msgid "Previous period traffic"
+#~ msgstr "ترافیک دوره قبلی"
+
+#~ msgid "Current period traffic"
+#~ msgstr "ترافیک دوره جاری"
+
+#~ msgid "Team users count"
+#~ msgstr "تعداد کاربران تیم"
+
+#~ msgid "My Share"
+#~ msgstr "سهم من"
+
+#~ msgid "From the net sales revenue of each team file"
+#~ msgstr "از درآمد خالص فروش هر فایل تیم"
+
+#~ msgid "Team Entry Code"
+#~ msgstr "کد ورود به تیم"
+
+#~ msgid "This team has no manager."
+#~ msgstr "این تیم مدیر ندارد."
+
+#, php-format
+#~ msgid "%s Page"
+#~ msgid_plural "%s Pages"
+#~ msgstr[0] "%s صفحه"
+#~ msgstr[1] "%s صفحه"
+
+#~ msgid "Sorry you have no request yet."
+#~ msgstr "با عرض پوزش شما هنوز درخواستی ثبت نکرده‌اید ندارید."
+
+#, php-format
+#~ msgid "You are currently a member of %s team."
+#~ msgstr "شما در حال حاضر عضو تیم %s هستید."
+
+#, php-format
+#~ msgid "You already registered as %s on this team."
+#~ msgstr "شما قبلاً به عنوان %s در این تیم ثبت نام کرده‌اید."
+
+#~ msgid "Content Manager"
+#~ msgstr "مدیر محتوا"
+
+#~ msgid "There is no team with entered code."
+#~ msgstr "تیمی با کد وارد شده وجود ندارد."
+
+#~ msgid "Team Manager"
+#~ msgstr "مدیر تیم"
+
+#~ msgid "Members Count"
+#~ msgstr "تعداد اعضا"
+
+#, php-format
+#~ msgid "%s people"
+#~ msgstr "%s نفر"
+
+#~ msgid "Start of Activity"
+#~ msgstr "شروع فعالیت"
+
+#~ msgid "Membership code"
+#~ msgstr "کد عضویت"
+
+#~ msgid "Activity Fields"
+#~ msgstr "زمینه‌های فعالیت"
+
+#~ msgid "Team Identify"
+#~ msgstr "شناسه تیم"
+
+#, php-format
+#~ msgid "You have successfully become a member of %s's team."
+#~ msgstr "شما با موفقیت عضو تیم %s شدید."
+
+#~ msgid ""
+#~ "You are not currently a member of any team, please enter your team "
+#~ "invitation code in the field below."
+#~ msgstr ""
+#~ "در حال حاضر شما عضو هیچ تیمی نیستید، لطفا کد دعوت تیم خود را در فیلد زیر "
+#~ "وارد کنید."
+
+#~ msgid "Additional Information"
+#~ msgstr "اطلاعات تکمیلی"
+
+#~ msgid "Update your additional information"
+#~ msgstr "اطلاعات تکمیلی خود را به روز کنید"
+
+#~ msgid "Notice"
+#~ msgstr "توجه"
+
+#, php-format
+#~ msgid ""
+#~ "The value of this field cannot be edited after it is saved and confirmed "
+#~ "by %s."
+#~ msgstr "مقدار این فیلد پس از ذخیره و تایید از سوی %s، غیر قابل ویرایش است."
+
+#~ msgid "Content Production"
+#~ msgstr "تولید محتوا"
+
+#~ msgid "Content Performance"
+#~ msgstr "عملکرد محتوایی"
+
+#~ msgid "View your content performance"
+#~ msgstr "عملکرد محتوایی خود را ببینید"
+
+#~ msgid "My Content Performance"
+#~ msgstr "عملکرد محتوایی من"
+
+#~ msgid ""
+#~ "See how many posts you’ve produced and track your daily, weekly and "
+#~ "monthly producing trends."
+#~ msgstr ""
+#~ "تعداد صفحات نوشته شده و روند پیشرفت روزانه، هفتگی و ماهانه خود را مشاهده "
+#~ "کنید."
+
+#~ msgid "My Team Content Performance"
+#~ msgstr "عملکرد محتوایی تیم من"
+
+#~ msgid ""
+#~ "See how much content your team is publishing and track publishing trends "
+#~ "over time."
+#~ msgstr ""
+#~ "میزان محتوای منتشرشده توسط تیم خود را ببینید و روند انتشار را در گذر زمان "
+#~ "دنبال کنید."
+
+#~ msgid "Other Users Performance"
+#~ msgstr "عملکرد محتوایی دیگر کاربران"
+
+#~ msgid ""
+#~ "See how other users are performing and compare their daily producing "
+#~ "trends with yours."
+#~ msgstr ""
+#~ "عملکرد صفحات نوشته شده سایر کاربران را مشاهده کرده و روند پیشرفت آن‌ها را "
+#~ "با خودتان مقایسه کنید."
+
+#~ msgid "Other Teams Performance"
+#~ msgstr "عملکرد محتوایی دیگر تیم‌ها"
+
+#~ msgid ""
+#~ "Track the publishing performance of other teams and discover how your team "
+#~ "stacks up against them."
+#~ msgstr ""
+#~ "عملکرد انتشار سایر تیم‌ها را دنبال کنید و ببینید تیم شما چگونه در مقایسه با "
+#~ "آن‌ها عمل می‌کند."
+
+#~ msgid "Traffic Performance"
+#~ msgstr "عملکرد ترافیکی"
+
+#~ msgid "View your traffic performance"
+#~ msgstr "عملکرد ترافیکی خود را مشاهده کنید"
+
+#~ msgid "My Traffic Performance"
+#~ msgstr "عملکرد ترافیکی من"
+
+#~ msgid "My performance in attracting organic Google traffic."
+#~ msgstr "عملکرد من در جذب ترافیک ارگانیک گوگل."
+
+#~ msgid "My Team Traffic Performance"
+#~ msgstr "عملکرد ترافیکی تیم من"
+
+#~ msgid ""
+#~ "The performance of team producers in attracting organic Google traffic."
+#~ msgstr "عملکرد کاربران محتوای تیم در جذب ترافیک ارگانیک گوگل."
+
+#~ msgid "Team Details"
+#~ msgstr "جزئیات تیم"
+
+#~ msgid "Member"
+#~ msgstr "عضو"
+
+#~ msgid "Member Details"
+#~ msgstr "جزئیات کاربر"
+
+#~ msgid "Post"
+#~ msgstr "نوشته‌"
+
+#~ msgid "Post Details"
+#~ msgstr "جزئیات نوشته"
+
+#, php-format
+#~ msgid "%s Traffic"
+#~ msgstr "ترافیک %s"
+
+#, php-format
+#~ msgid "%s Aggregated Traffic"
+#~ msgstr "ترافیک تجمعی %s"
+
+#~ msgid "All"
+#~ msgstr "همه"
+
+#~ msgid "Posts"
+#~ msgstr "نوشته‌ها"
+
+#~ msgid "Products"
+#~ msgstr "محصولات"
+
+#~ msgid "Overview"
+#~ msgstr "بررسی کلی"
+
+#~ msgid "Users Performance"
+#~ msgstr "عملکرد کاربران"
+
+#~ msgid "Page's Traffic"
+#~ msgstr "ترافیک صفحات"
+
+#, php-format
+#~ msgid "Me in %s"
+#~ msgstr "من در %s"
+
+#~ msgid "Me in Team"
+#~ msgstr "من در تیم"
+
+#, php-format
+#~ msgid "My Team in %s"
+#~ msgstr "تیم من در %s"
+
+#~ msgid "Most Productive Users"
+#~ msgstr "پرکارترین کاربران"
+
+#~ msgid "Least Productive Users"
+#~ msgstr "کم کارترین کاربران"
+
+#~ msgid "Most Productive Teams"
+#~ msgstr "پرکارترین تیم‌ها"
+
+#~ msgid "Least Productive Teams"
+#~ msgstr "کم‌کارترین تیم‌ها"
+
+#~ msgid "Yearly"
+#~ msgstr "سالانه"
+
+#~ msgid "Monthly"
+#~ msgstr "ماهانه"
+
+#~ msgid "Weekly"
+#~ msgstr "هفتگی"
+
+#~ msgid "Daily"
+#~ msgstr "روزانه"
+
+#~ msgid "Content Producer"
+#~ msgstr "کاربر محتوا"
+
+#~ msgid "Published Content Count"
+#~ msgstr "تعداد محتوا منتشر شده"
+
+#~ msgid "Produced Content Count"
+#~ msgstr "تعداد محتوا نوشته شده"
+
+#~ msgid "Join Team"
+#~ msgstr "پیوستن به تیم"
+
+#~ msgid "Check Code"
+#~ msgstr "بررسی کد"
+
+#~ msgid "Name of User"
+#~ msgstr "نام کاربر"
+
+#~ msgid "Join Date"
+#~ msgstr "تاریخ عضویت"
+
+#~ msgid "Posts Count"
+#~ msgstr "تعداد نوشته‌ها"
+
+#~ msgid "All Traffic"
+#~ msgstr "کل ترافیک صفحات"
+
+#, php-format
+#~ msgid "Performance of %s"
+#~ msgstr "عملکرد %s"
+
+#~ msgid "Caption"
+#~ msgstr "کپشن"
+
+#~ msgid "Professional Python programmer"
+#~ msgstr "برنامه نویس حرفه‌ای پایتون"
+
+#~ msgid "Expertise"
+#~ msgstr "تخصص"
+
+#~ msgid "Game console specialist"
+#~ msgstr "متخصص کنسول‌های بازی"
+
+#~ msgid "Aparat Introduce Link"
+#~ msgstr "لینک معرفی آپارات"
+
+#~ msgid "Educational Information"
+#~ msgstr "اطلاعات تحصیلی"
+
+#~ msgid "Place of Study"
+#~ msgstr "محل تحصیل"
+
+#~ msgid "Tehran University"
+#~ msgstr "دانشگاه تهران"
+
+#~ msgid "Field of Study"
+#~ msgstr "رشته تحصیلی"
+
+#~ msgid "Computer Engineering"
+#~ msgstr "مهندسی کامپیوتر"
+
+#~ msgid "Degree"
+#~ msgstr "مقطع"
+
+#~ msgid "Education Place Website"
+#~ msgstr "وبسایت دانشگاه"
+
+#~ msgid "Languages"
+#~ msgstr "زبان‌ها"
+
+#~ msgid "Languages you speak or are familiar with"
+#~ msgstr "زبان‌هایی که صحبت می‌کنید یا آشنا هستید"
+
+#~ msgid "Memberships & Certificates"
+#~ msgstr "عضویت‌ها و گواهینامه‌ها"
+
+#~ msgid ""
+#~ "Organizations or institutions of which you are a member, for example, the "
+#~ "Medical System Organization + certificates and credentials (exclusively "
+#~ "those related to the specialized field of the fax file content) that you "
+#~ "have received"
+#~ msgstr ""
+#~ "سازمان‌ها یا نهادهایی که در آن‌ها عضو هستید، برای مثال سازمان نظام پزشکی + "
+#~ "گواهینامه‌ها و سرتیفیکیت‌هایی (منحصرا موارد مرتبط با زمینه تخصصی محتوای فایل "
+#~ "فاکس) که دریافت کرده‌اید"
+
+#~ msgid "Memberships"
+#~ msgstr "عضویت‌ها"
+
+#~ msgid "Organization Name"
+#~ msgstr "نام سازمان"
+
+#~ msgid "Organization Website"
+#~ msgstr "وب سایت سازمان"
+
+#~ msgid "Badges"
+#~ msgstr "نشان‌ها"
+
+#~ msgid "Badge Name"
+#~ msgstr "عنوان نشان"
+
+#~ msgid "Badge Type"
+#~ msgstr "نوع نشان"
+
+#~ msgid "Certificates"
+#~ msgstr "گواهینامه‌ها"
+
+#~ msgid "Certificate Name"
+#~ msgstr "عنوان گواهی نامه"
+
+#, fuzzy
+#~| msgid "Certificate Name"
+#~ msgid "Certificate Type"
+#~ msgstr "عنوان گواهی نامه"
+
+#~ msgid "Public Contact Points"
+#~ msgstr "اطلاعات تماس عمومی"
+
+#~ msgid ""
+#~ "This contact information will be displayed to all visitors on your public "
+#~ "profile."
+#~ msgstr ""
+#~ "این اطلاعات تماس در پروفایل عمومی شما به عموم بازدیدکنندگان نمایش داده "
+#~ "می‌شود."
+
+#~ msgid "Phone"
+#~ msgstr "شماره تماس"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "External Accounts"
+#~ msgstr "پروفایل‌های مرجع"
+
+#~ msgid "Your profile on reference websites like Reddit and Stack Exchange"
+#~ msgstr "پروفایل شما در وبسایت های مرجع نظیر Reddit و Stack Exchange"
+
+#~ msgid "Stack Exchange Accounts"
+#~ msgstr "حساب‌های Stack Exchange"
+
+#~ msgid "Website Title"
+#~ msgstr "عنوان وب سایت"
+
+#~ msgid "Account Link"
+#~ msgstr "لینک پروفایل"
+
+#~ msgid "Account User ID"
+#~ msgstr "شناسه حساب‌کاربری"
+
+#~ msgid "English"
+#~ msgstr "انگلیسی"
+
+#~ msgid "Persian"
+#~ msgstr "فارسی"
+
+#~ msgid "Spanish"
+#~ msgstr "اسپانیایی"
+
+#~ msgid "French"
+#~ msgstr "فرانسوی"
+
+#~ msgid "Turkish"
+#~ msgstr "ترکی"
+
+#~ msgid "Arabic"
+#~ msgstr "عربی"
+
+#~ msgid "Chinese"
+#~ msgstr "چینی"
+
+#~ msgid "Diploma"
+#~ msgstr "دیپلم"
+
+#~ msgid "Associate"
+#~ msgstr "فوق دیپلم"
+
+#~ msgid "Bachelor"
+#~ msgstr "لیسانس"
+
+#~ msgid "Master"
+#~ msgstr "کارشناسی ارشد"
+
+#~ msgid "Doctoral"
+#~ msgstr "دکتری"
+
+#, php-format
+#~ msgid "%s of %s from %s"
+#~ msgstr "%s %s از %s"
+
+#, php-format
+#~ msgid "FileFox Custom (%s)"
+#~ msgstr "سفارشی فایل‌فاکس (%s)"
+
+#, fuzzy
+#~| msgid "Posts Count"
+#~ msgid "Posts Owners"
+#~ msgstr "تعداد نوشته‌ها"
+
+#~ msgid "Published At"
+#~ msgstr "منتشر شده در"
+
+#~ msgid "Teams"
+#~ msgstr "تیم‌ها"
+
+#~ msgid "Title"
+#~ msgstr "عنوان"
+
+#~ msgid "Show to Search Engines"
+#~ msgstr "نمایش به موتورهای جستجو"
+
+#~ msgid "Invite Code"
+#~ msgstr "کد دعوت"
+
+#~ msgid "Description"
+#~ msgstr "شرح"
+
+#~ msgid "Manager"
+#~ msgstr "مدیر محتوا"
+
+#~ msgid "Producers"
+#~ msgstr "کاربران محتوا"
+
+#, fuzzy
+#~| msgid "Posts Count"
+#~ msgid "Posts Owner"
+#~ msgstr "تعداد نوشته‌ها"
+
+#~ msgid "Ask search engines to crawl this team content"
+#~ msgstr ""
+#~ "از موتورهای جستجو درخواست کن تا محتوای مربوط به این تیم را بررسی کنند"
+
+#~ msgid "Post Type"
+#~ msgstr "نوع نوشته"
+
+#~ msgid "Date"
+#~ msgstr "تاریخ"
+
+#~ msgid "Invalid post type"
+#~ msgstr "نوع نوشته نامعتبر"
+
+#~ msgid "Produced Post"
+#~ msgstr "نوشته شده"
+
+#~ msgid "Produced Posts"
+#~ msgstr "نوشته‌شده‌ها"
+
+#~ msgid "User Request"
+#~ msgstr "درخواست کاربر"
+
+#~ msgid "Published Post"
+#~ msgstr "منتشر شده"
+
+#~ msgid "Published Posts"
+#~ msgstr "منتشر شده‌ها"
+
+#~ msgid "You do not have the required permissions to perform this action."
+#~ msgstr "شما مجوز لازم برای انجام این عملیات را ندارید."
+
+#~ msgid "Cancel Edit Needed"
+#~ msgstr "انصراف از اصلاح"
+
+#~ msgid "Cancel post correction"
+#~ msgstr "انصراف از اصلاح نوشته"
+
+#~ msgid "Do you really want to cancel post correction?"
+#~ msgstr "آیا واقعاً می‌خواهید درخوسات اصلاح نوشته را لغو کنید؟"
+
+#~ msgid "Edit Needed"
+#~ msgstr "نیازمند اصلاح"
+
+#~ msgid "Send post to correction"
+#~ msgstr "ارسال نوشته برای اصلاح"
+
+#~ msgid "Does this article really need to be corrected?"
+#~ msgstr "آیا این نوشته، واقعا نیازمند اصلاح است؟"
+
+#~ msgid ""
+#~ "If submitted for correction, the content producer will again have the "
+#~ "opportunity to complete or make further changes to the post and also "
+#~ "resubmit it for review."
+#~ msgstr ""
+#~ "در صورت ارسال جهت اصلاح، کاربر محتوا مجددا امکان تکمیل یا اعمال تغییرات "
+#~ "بیشتر در نوشته و همچنین ارسال دوباره آن برای بازبینی را خواهد داشت."
+
+#, php-format
+#~ msgid ""
+#~ "An error occurred while attempting to %s. Please try again or contact "
+#~ "support if the problem persists"
+#~ msgstr ""
+#~ "هنگام تلاش برای %s، خطایی رخ داد. لطفاً دوباره تلاش کنید یا در صورت ادامه "
+#~ "مشکل با پشتیبانی تماس بگیرید"
+
+#~ msgid "view revision preview"
+#~ msgstr "مشاهده پیش‌نمایش رونوشت"
+
+#~ msgid "Your request is not valid."
+#~ msgstr "درخواست شما معتبر نیست."
+
+#~ msgid "Post not found"
+#~ msgstr "نوشته یافت نشد"
+
+#~ msgid "Just published post can have a revision."
+#~ msgstr "تنها نوشته‌های منتشر شده می‌توانند رونوشت داشته باشند."
+
+#~ msgid "Revision approved successfully."
+#~ msgstr "رونوشت پذیرفته شد."
+
+#, php-format
+#~ msgid ""
+#~ "An error occurred while attempting to %s. Please try again or contact "
+#~ "support if the problem persists."
+#~ msgstr ""
+#~ "هنگام تلاش برای %s، خطایی رخ داد. لطفاً دوباره تلاش کنید یا در صورت ادامه "
+#~ "مشکل با پشتیبانی تماس بگیرید."
+
+#~ msgid "approve the revision"
+#~ msgstr "پذیرفتن رونوشت"
+
+#~ msgid ""
+#~ "Revision rejected successfully. the content producer, will be given access "
+#~ "to make more changes to the revision."
+#~ msgstr ""
+#~ "رونوشت با موفقیت رد شد. کاربر محتوا، می‌تواند تغییرات خود را روی رونوشت "
+#~ "اعمال کند."
+
+#~ msgid "reject the revision"
+#~ msgstr "رد کردن رونوشت"
+
+#~ msgid "Your revision submission canceled successfully."
+#~ msgstr "بازبینی رونوشت ارسالی با موفقیت لغو شد."
+
+#~ msgid "cancel the revision submission"
+#~ msgstr "لغو ارسال برای بازبینی"
+
+#~ msgid "Post correction canceled successfully."
+#~ msgstr "درخواست اصلاح نوشته با موفقیت لغو شد."
+
+#~ msgid ""
+#~ "Post submitted for correction successfully. the content producer will "
+#~ "again have the opportunity to complete or make further changes to the post "
+#~ "and also resubmit it for review."
+#~ msgstr ""
+#~ "نوشته با موفقیت برای اصلاح ارسال شد، کاربر محتوا مجددا امکان تکمیل یا "
+#~ "اعمال تغییرات بیشتر در نوشته و همچنین ارسال دوباره آن برای بازبینی را "
+#~ "خواهد داشت."
+
+#~ msgid ""
+#~ "This revision has been submitted for review and cannot be deleted. Please "
+#~ "cancel the submission first."
+#~ msgstr ""
+#~ "این رونوشت برای بازبینی ارسال شده و قابل حذف نیست. لطفا ابتدا ارسال برای "
+#~ "بازبینی را لغو کنید."
+
+#~ msgid "Revision deleted successfully."
+#~ msgstr "رونوشت با موفقیت حذف شد."
+
+#~ msgid "delete the revision"
+#~ msgstr "حذف رونوشت"
+
+#~ msgid "Manage Revision"
+#~ msgstr "مدیریت رونوشت"
+
+#, php-format
+#~ msgid "%s at %s"
+#~ msgstr "%s ساعت %s"
+
+#~ msgid "Compare with Published version"
+#~ msgstr "مقایسه با نسخه منتشر شده"
+
+#~ msgid "Submitted on"
+#~ msgstr "ارسال شده برای بازبینی در"
+
+#~ msgid "Reject Revision"
+#~ msgstr "رد رونوشت"
+
+#~ msgid "Are you sure about rejecting this revision?"
+#~ msgstr "آیا از رد کردن این رونوشت مطمئن هستید؟"
+
+#~ msgid ""
+#~ "If you reject the revision, the content producer, will be given access to "
+#~ "make more changes to the revision."
+#~ msgstr ""
+#~ "در صورت رد رونوشت، کاربر محتوا، مجددا امکان تکمیل یا اعمال تغییرات بیشتر "
+#~ "در رونوشت را خواهد داشت."
+
+#~ msgid "Yes, reject it!"
+#~ msgstr "بله، رد شود!"
+
+#~ msgid "Approve Revision"
+#~ msgstr "پذیرفتن رونوشت"
+
+#~ msgid ""
+#~ "Are you sure you want to approve this revision? This action is "
+#~ "irreversible and the revision content will replace the published version "
+#~ "permanently."
+#~ msgstr ""
+#~ "ایا مطمئنید که می‌خواهید این رونوشت را تایید کنید؟ این عملیات غیر قابل "
+#~ "بازگشت بوده و محتوای رونوشت جایگزین نسخه منتشر شده، خواهد شد."
+
+#~ msgid "Yes, approve it!"
+#~ msgstr "بله، پذیرفته شود!"
+
+#~ msgid ""
+#~ "The content producer is still making changes to the revision of this post."
+#~ msgstr "کاربر محتوا، هنوز مشغول اعمال تغییرات در رونوشت این نوشته است."
+
+#~ msgid "No revision has been created for this post yet."
+#~ msgstr "هنوز هیچ رونوشتی برای این نوشته ایجاد نشده است."
+
+#~ msgid "Save Revision"
+#~ msgstr "ذخیره رونوشت"
+
+#~ msgid "Published on"
+#~ msgstr "منتشر شده در"
+
+#~ msgid "Delete Revision"
+#~ msgstr "حذف رونوشت"
+
+#~ msgid ""
+#~ "Are you sure you want to delete this revision? This action cannot be "
+#~ "undone!"
+#~ msgstr ""
+#~ "آیا مطمئنید که می‌خواهید این نسخه را حذف کنید؟ این عمل قابل بازگشت نیست!"
+
+#~ msgid "Yes, Delete it!"
+#~ msgstr "بله، حذف شود!"
+
+#~ msgid "Send Revision"
+#~ msgstr "ارسال برای بازبینی"
+
+#~ msgid "Are you sure you want to submit this revision for review?"
+#~ msgstr "آیا از ارسال این رونوشت برای بازبینی مطمئن هستید؟"
+
+#~ msgid "Yes, Sent it!"
+#~ msgstr "بله، ارسال شود!"
+
+#~ msgid "Cancel Revision Submission"
+#~ msgstr "لغو ارسال برای بازبینی"
+
+#~ msgid ""
+#~ "Are you sure you want to cancel the submission of this revision for review?"
+#~ msgstr "آیا مطمئنید که می‌خواهید ارسال این رونوشت برای بازبینی را لغو کنید؟"
+
+#~ msgid "Yes, Cancel it!"
+#~ msgstr "بله، لغو شود!"
+
+#~ msgid "No active revision exists"
+#~ msgstr "هیچ رونوشت فعالی وجود ندارد"
+
+#~ msgid "Create Revision"
+#~ msgstr "ایجاد رونوشت"
+
+#~ msgid "revision not found."
+#~ msgstr "رونوشت بافت نشد."
+
+#~ msgid ""
+#~ "This revision has been submitted for review and cannot be modified. Please "
+#~ "cancel the submission first."
+#~ msgstr ""
+#~ "این رونوشت برای بازبینی ارسال شده و قابل ویرایش نیست. لطفا ابتدا ارسال "
+#~ "برای بازبینی را لغو کنید."
+
+#~ msgid "Can not do this, because this post, already has a revision."
+#~ msgstr ""
+#~ "نمی‌توان این عملیات را انجام داد، چون این نوشته همین الان دارای یک رونوشت "
+#~ "هست."
+
+#~ msgid "Security check failed for processing author changes."
+#~ msgstr "بررسی امنیتی برای پردازش تغییرات نویسنده ناموفق بود."
+
+#~ msgid "The author's changes have been approved and published."
+#~ msgstr "تغییرات نویسنده تایید و منتشر شد."
+
+#~ msgid "Failed to approve and publish changes."
+#~ msgstr "تایید و انتشار تغییرات با شکست مواجه شد."
+
+#~ msgid "Error: "
+#~ msgstr "خطا: "
+
+#~ msgid "the author's changes have been rejected."
+#~ msgstr "تغییرات نویسنده رد شد."
+
+#~ msgid "Cost of Internship"
+#~ msgstr "هزینه کارآموزی"
+
+#~ msgid "Team Share"
+#~ msgstr "سهم تیم"
+
+#, php-format
+#~ msgid "%s of total team sales"
+#~ msgstr "%s از کل فروش تیم"
+
+#~ msgid "User Share"
+#~ msgstr "سهم کاربر"
+
+#~ msgid "User-to-Team Traffic Ratio"
+#~ msgstr "نسبت ترافیک کاربر به تیم"
+
+#~ msgid "Manager Share"
+#~ msgstr "سهم مدیر"
+
+#~ msgid "Percentage increase in team traffic divided by team size"
+#~ msgstr "درصد افزایش ترافیک تیم تقسیم بر اندازه تیم"
+
+#~ msgid "Manager's share cap"
+#~ msgstr "سقف سهم مدیر"
+
+#, php-format
+#~ msgid "Team of %s"
+#~ msgstr "تیم %s"
+
+#~ msgid "Aggregate Traffic"
+#~ msgstr "ترافیک تجمعی"
+
+#~ msgid "Aggregate Traffics"
+#~ msgstr "ترافیک‌های تجمعی"
+
+#~ msgid "Daily Traffic"
+#~ msgstr "ترافیک روز"
+
+#~ msgid "Daily Traffics"
+#~ msgstr "ترافیک‌های روزانه"
+
+#~ msgid "Object"
+#~ msgstr "شیء"
+
+#~ msgid "Object Type"
+#~ msgstr "نوع شی"
+
+#~ msgid "Request (User)"
+#~ msgstr "درخواست (کاربر)"
+
+#~ msgid "Click Count"
+#~ msgstr "تعداد کلیک"
+
+#, php-format
+#~ msgid "%s view"
+#~ msgstr "%s بازدید"
+
+#~ msgid "Traffic Type"
+#~ msgstr "نوع ترافیک"
+
+#~ msgid "Organic (Google Search)"
+#~ msgstr "ارگانیک (جستجوی گوگل)"
+
+#~ msgid "Discover (Google Chrome)"
+#~ msgstr "دیسکاور (گوگل کروم)"
+
+#~ msgid "Query, Server & ..."
+#~ msgstr "کوئری، سرور و ..."
+
+#~ msgid "Server"
+#~ msgstr "سرور"
+
+#~ msgid "Server URL"
+#~ msgstr "لینک سرور"
+
+#~ msgid "Query"
+#~ msgstr "کوئری"
+
+#~ msgid "Click Threshold"
+#~ msgstr "آستانه کلیک"
+
+#~ msgid "Rows in each Request"
+#~ msgstr "ردیف‌ها در هر درخواست"
+
+#~ msgid "Post Traffic"
+#~ msgstr "ترافیک نوشته"
+
+#~ msgid "Posts Traffic"
+#~ msgstr "ترافیک نوشته‌ها"
+
+#~ msgid "Count"
+#~ msgstr "تعداد"
+
+#~ msgid "Metadata"
+#~ msgstr "متادیتا"
+
+#~ msgid "Render Template"
+#~ msgstr "قالب نمایش"
+
+#~ msgid "List"
+#~ msgstr "لیست"
+
+#~ msgid "Table"
+#~ msgstr "جدول"
+
+#~ msgid "Simple List"
+#~ msgstr "لیست ساده"
+
+#~ msgid "Day"
+#~ msgstr "روز"
+
+#~ msgid "Week"
+#~ msgstr "هفته"
+
+#~ msgid "Month"
+#~ msgstr "ماه"
+
+#~ msgid "Custom Setting"
+#~ msgstr "تنظیمات سفارشی"
+
+#~ msgid "Setting"
+#~ msgstr "تنظیمات"
+
+#~ msgid "Download & Upload Request"
+#~ msgstr "درخواست دانلود و آپلود"
+
+#~ msgid "Pages"
+#~ msgstr "صفحات"
+
+#~ msgid "Request Parent"
+#~ msgstr "درخواست والد"
+
+#~ msgid "Download Page"
+#~ msgstr "صفحه دانلود"
+
+#~ msgid "Upload Page"
+#~ msgstr "صفحه آپلود"
+
+#, fuzzy
+#~| msgid "Certificate Name"
+#~ msgid "Certificates, Badges, ..."
+#~ msgstr "عنوان گواهی نامه"
+
+#~ msgid "General"
+#~ msgstr "عمومی"
+
+#~ msgid "Download Page Configuration"
+#~ msgstr "پیکربندی صفحه دانلود"
+
+#~ msgid "Download Section"
+#~ msgstr "بخش دانلود"
+
+#~ msgid "Page"
+#~ msgstr "صفحه"
+
+#~ msgid "Download Button"
+#~ msgstr "دکمه دانلود"
+
+#~ msgid "Download Message"
+#~ msgstr "پیام دانلود"
+
+#~ msgid "Use below button to download file."
+#~ msgstr "برای دانلود فایل ار دکمه زیر استفاده کنید."
+
+#~ msgid "Start Button"
+#~ msgstr "دکمه شروع"
+
+#~ msgid "Start Message"
+#~ msgstr "پیام شروع"
+
+#~ msgid "Use below button to start download."
+#~ msgstr "برای شروع دانلود از دکمه زیر استفاده کنید."
+
+#~ msgid "Illegal Access"
+#~ msgstr "دسترسی غیرمجاز"
+
+#~ msgid "Behavior"
+#~ msgstr "رفتار"
+
+#~ msgid "Redirect"
+#~ msgstr "ریدایرکت"
+
+#~ msgid "Show a Message"
+#~ msgstr "نمایش یک پیام"
+
+#~ msgid "Message"
+#~ msgstr "پیام"
+
+#~ msgid "Redirect to"
+#~ msgstr "ریدایرکت به"
+
+#~ msgid "redirect to selected page"
+#~ msgstr "ریدایرکت به صفحه انتخاب شده"
+
+#~ msgid "User Waiting"
+#~ msgstr "انتظار کاربر"
+
+#~ msgid "Enable"
+#~ msgstr "فعال"
+
+#~ msgid "Second"
+#~ msgstr "ثانیه"
+
+#~ msgid "Waiting Message"
+#~ msgstr "پیام انتظار"
+
+#~ msgid "Cloud Storage"
+#~ msgstr "فضای ذخیره ابری"
+
+#~ msgid "Storage Configuration"
+#~ msgstr "پیکربندی فضای ذخیره سازی"
+
+#~ msgid "PDF"
+#~ msgstr "فایل پی دی اف"
+
+#~ msgid "ZIP"
+#~ msgstr "فایل زیپ"
+
+#~ msgid "DOCX"
+#~ msgstr "فایل ورد"
+
+#~ msgid "WooCommerce"
+#~ msgstr "ووکامرس"
+
+#~ msgid "WooCommerce Configuration"
+#~ msgstr "پیکربندی ووکامرس"
+
+#~ msgid "Subdomain"
+#~ msgstr "ساب‌دامین"
+
+#~ msgid "Taxonomy"
+#~ msgstr "طبقه‌بندی"
+
+#~ msgid "Determine which taxonomy used as subdomain."
+#~ msgstr ""
+#~ "مشخص کنید کدام نوع طبقه‌بندی به عنوان ساب‌دامین مورد استفاده قرار گیرد."
+
+#~ msgid "Download List"
+#~ msgstr "لیست دانلود"
+
+#, fuzzy
+#~| msgid "Download Title"
+#~ msgid "Download Title Mask"
+#~ msgstr "عنوان دانلود"
+
+#~ msgid "Download Title"
+#~ msgstr "عنوان دانلود"
+
+#~ msgid "Account"
+#~ msgstr "حساب کاربری"
+
+#~ msgid "Accounts"
+#~ msgstr "حساب‌های کاربری"
+
+#~ msgid "Dropbox"
+#~ msgstr "دراپ باکس"
+
+#~ msgid "Amazon S3"
+#~ msgstr "فضای ابری آمازون"
+
+#~ msgid "Google Drive"
+#~ msgstr "گوگل درایو"
+
+#~ msgid "Storage"
+#~ msgstr "فضای ذخیره سازی"
+
+#~ msgid "Active"
+#~ msgstr "فعال"
+
+#~ msgid "Inactive"
+#~ msgstr "غیر فعال‌‌"
+
+#~ msgid "Readonly"
+#~ msgstr "فقط خواندنی"
+
+#~ msgid "Status"
+#~ msgstr "وضعیت"
+
+#~ msgid "Download Link Text"
+#~ msgstr "متن دکمه دانلود"
+
+#~ msgid "Limit (Day)"
+#~ msgstr "محدودیت (روز)"
+
+#~ msgid "Capacity (MB)"
+#~ msgstr "ظرفیت (MB)"
+
+#~ msgid "Priority"
+#~ msgstr "اولویت"
+
+#, fuzzy
+#~| msgid "Applications"
+#~ msgid "Replicas"
+#~ msgstr "کاربردها"
+
+#~ msgid "Successful"
+#~ msgstr "موفق"
+
+#~ msgid "Attachment"
+#~ msgstr "پیوست"
+
+#~ msgid "Link"
+#~ msgstr "پیوند"
+
+#~ msgid "Link Date"
+#~ msgstr "تاریخ پیوند"
+
+#~ msgid "Download at low speed"
+#~ msgstr "دانلود با سرعت پایین"
+
+#~ msgid "Something wrong, please try again or contact us."
+#~ msgstr "مشکلی وجود دارد، لطفاً دوباره امتحان کنید یا با ما تماس بگیرید."
+
+#~ msgid "File Request"
+#~ msgstr "درخواست فایل"
+
+#~ msgid "File Provide"
+#~ msgstr "ارائه فایل"
+
+#~ msgid "Category"
+#~ msgstr "دسته‌بندی"
+
+#~ msgid "Taxonomies"
+#~ msgstr "طبقه‌بندی‌ها"
+
+#~ msgid ""
+#~ "First, select the material to load the categories related to the material."
+#~ msgstr ""
+#~ "ابتدا ماهیت را انتخاب کنید تا دسته‌بندی‌های مربوط به ماهیت بارگذاری شوند."
+
+#~ msgid "Author Slug"
+#~ msgstr "نامک نویسنده"
+
+#~ msgid "Registered Date"
+#~ msgstr "تاریخ ثبت‌نام"
+
+#~ msgid "Attributes"
+#~ msgstr "ویژگی‌ها"
+
+#~ msgid "View All Attributes"
+#~ msgstr "مشاهده همه ویژگی‌ها"
+
+#~ msgid "Attribute Type"
+#~ msgstr "نوع ویژگی‌"
+
+#~ msgid "Show in attributes area"
+#~ msgstr "نمایش در بخش ویژگی‌های محصول"
+
+#~ msgid "Show in loop area"
+#~ msgstr "نمایش در بخش لیست محصولات"
+
+#~ msgid "Show in cart item"
+#~ msgstr "نمایش در بخش سبد خرید"
+
+#~ msgid "Show in shortcodes area"
+#~ msgstr "نمایش در بخش شورتکد محصول"
+
+#~ msgid "Your request is invalid."
+#~ msgstr "درخواست شما نامعتبر است."
+
+#~ msgid "You do not have the necessary permission to do this."
+#~ msgstr "شما مجوز لازم برای انجام این کار را ندارید."
+
+#~ msgid "Review dehighlighted."
+#~ msgstr "لغو برجسته‌سازی نقد و بررسی."
+
+#~ msgid "Review highlighted."
+#~ msgstr "برجسته‌سازی نقد و بررسی."
+
+#~ msgid "Dehighlight"
+#~ msgstr "لغو برجسته‌سازی"
+
+#~ msgid "Highlight"
+#~ msgstr "برجسته کردن"
+
+#~ msgid "Available Versions"
+#~ msgstr "نسخه‌های موجود"
+
+#~ msgid "Files Upload Date"
+#~ msgstr "تاریخ درج فایل"
+
+#~ msgid "File Count"
+#~ msgstr "تعداد فایل"
+
+#~ msgid "Has"
+#~ msgstr "دارد"
+
+#~ msgid "Does not have"
+#~ msgstr "ندارد"
+
+#~ msgid "Download Count"
+#~ msgstr "تعداد دانلود"
+
+#~ msgid "to see more full list of changes, click on download button"
+#~ msgstr "برای دیدن تغییرات کامل، رو دکمه دانلود کلیک کیند"
+
+#~ msgid "Changes of this version"
+#~ msgstr "تغییرات این نسخه"
+
+#~ msgid "View & Download"
+#~ msgstr "مشاهده و دانلود"
+
+#, php-format
+#~ msgid "Version %s - %s"
+#~ msgstr "نسخه %s - %s"
+
+#, php-format
+#~ msgid "Changes of %s"
+#~ msgstr "تغییرات نسخه %s"
+
+#~ msgid "Free"
+#~ msgstr "رایگان"
+
+#~ msgid "Downloads"
+#~ msgstr "دانلود‌ها"
+
+#, php-format
+#~ msgid "Download %s"
+#~ msgstr "دانلود %s"
+
+#, php-format
+#~ msgid "%s times downloaded"
+#~ msgstr "%s بار دانلود شده"
+
+#~ msgid "Add to Cart"
+#~ msgstr "افزودن به سبد خرید"
+
+#~ msgid "Download File"
+#~ msgstr "دانلود فایل"
+
+#~ msgid "Items"
+#~ msgstr "آیتم‌ها‌"
+
+#~ msgid "permission dined"
+#~ msgstr "دسترسی مسدود شده است"
+
+#, php-format
+#~ msgid "%s Post"
+#~ msgid_plural "%s Posts"
+#~ msgstr[0] "%s نوشته"
+#~ msgstr[1] "%s نوشته"
+
+#~ msgid "Categories"
+#~ msgstr "دسته‌بندی‌ها"
+
+#~ msgid "Product Categories"
+#~ msgstr "دسته‌بندی‌های محصول"
+
+#~ msgid "It's up to the search engines to respect your request."
+#~ msgstr "این برعهدهٔ موتورهای جستجوست که به خواستهٔ شما احترام بگذارند."
+
+#~ msgid "Exclude Posts From Sitemap"
+#~ msgstr " حذف نوشته‌ها از سایت‌مپ"
+
+#~ msgid " All posts related to this term will be removed from the sitemap."
+#~ msgstr " تمامی نوشته‌های مربوط به این ترم از سایت‌مپ حذف خواهند شد."
+
+#~ msgid "Pending to Publish"
+#~ msgstr "در انتظار بررسی"
+
+#, fuzzy
+#~| msgid "Just published post can have a revision."
+#~ msgid "Just pending post can be reject."
+#~ msgstr "تنها نوشته‌های منتشر شده می‌توانند رونوشت داشته باشند."
+
+#~ msgid ""
+#~ "Post rejected successfully. the content producer, will be given access to "
+#~ "make more changes to the post and send it to check again."
+#~ msgstr ""
+#~ "در صورت رد کردن نوشته، کاربر محتوا، مجددا امکان تکمیل یا اعمال تغییرات "
+#~ "بیشتر در نوشته و همچنین ارسال دوباره آن برای بازبینی را خواهد داشت."
+
+#~ msgid "Yes, Reject it!"
+#~ msgstr "بله، رد شود!"
+
+#~ msgid "Need to be Edit"
+#~ msgstr "به اصلاح نیاز دارد"
+
+#~ msgid "Are you sure about rejecting this post?"
+#~ msgstr "آیا از رد کردن این نوشته مطمئن هستید؟"
+
+#~ msgid "Rejection"
+#~ msgstr "رد کردن نوشته"
+
+#~ msgid "Reject"
+#~ msgstr "رد کردن"
+
+#~ msgctxt "post"
+#~ msgid "Rejected"
+#~ msgstr "رد شده"
+
+#~ msgid "Rejected"
+#~ msgstr "رد شده"
+
+#~ msgid "Are you sure you want to reject this post?"
+#~ msgstr "آیا از رد کردن این نوشته مطمئن هستید؟"
+
+#~ msgid "Content Count"
+#~ msgstr "تعداد محتوا"
+
+#~ msgid "Your Performance"
+#~ msgstr "عملکرد شما"
+
+#, php-format
+#~ msgid "%s Performance"
+#~ msgstr "عملکرد %s"
+
+#~ msgid "Article"
+#~ msgstr "مقاله"
+
+#~ msgid "This Week"
+#~ msgstr "هفته جاری"
+
+#, php-format
+#~ msgid "%s week ago"
+#~ msgid_plural "%s weeks ago"
+#~ msgstr[0] "%s هفته قبل"
+#~ msgstr[1] "%s هفته قبل"
+
+#~ msgid "cancel the submit revision"
+#~ msgstr "لغو ارسال برای بازبینی"
+
+#~ msgid "Cancel Submit Revision"
+#~ msgstr "لغو ارسال برای بازبینی"
+
+#~ msgid "Custom Summary"
+#~ msgstr "خلاصه سفارشی"
+
+#~ msgid "Short Summery"
+#~ msgstr "خلاصه کوتاه"
+
+#~ msgid "Custom Data"
+#~ msgstr "دیتای سفارشی"
+
+#~ msgid "Application"
+#~ msgstr "کاربرد"
+
+#~ msgid "Applications"
+#~ msgstr "کاربردها"
+
+#~ msgid "Application for products"
+#~ msgstr "کاربر برای محصولات"
+
+#~ msgid "Medium"
+#~ msgstr "رسانه"
+
+#~ msgid "Mediums"
+#~ msgstr "رسانه‌ها"
+
+#~ msgid "Medium for products"
+#~ msgstr "رسانه برای محصولات"
+
+#~ msgid "Change Log"
+#~ msgstr "گزارش تغییرات"
+
+#~ msgid "View All"
+#~ msgstr "مشاهده همه"
+
+#~ msgid "Blog Post"
+#~ msgstr "نوشته تخصصی"
+
+#~ msgid "Blog Posts"
+#~ msgstr "نوشته‌های تخصصی"
+
+#~ msgid "Specify the languages you are fluent in"
+#~ msgstr "زبان هایی که به آنها مسلط هستید را مشخص کنید"
+
+#~ msgid "Member of"
+#~ msgstr "عضو در"
+
+#~ msgid "Educational Degree"
+#~ msgstr "مدرک تحصیلی"
+
+#~ msgid "University Name"
+#~ msgstr "نام دانشگاه"
+
+#~ msgid "University Field"
+#~ msgstr "رشته دانشگاهی"
+
+#~ msgid "University Degree"
+#~ msgstr "مدرک دانشگاهی"
+
+#~ msgid "University Link"
+#~ msgstr "لینک دانشگاه"
+
+#~ msgid "Post References"
+#~ msgstr "منابع نوشته"
+
+#~ msgid "References"
+#~ msgstr "منابع"
+
+#~ msgid "Content Management"
+#~ msgstr "مدیریت محتوا"
+
+#~ msgid "Manage your content"
+#~ msgstr "محتوای خود را مدیریت کنید"
+
+#~ msgid "Team Traffic"
+#~ msgstr "ترافیک تیم"
+
+#~ msgid "Team Aggregated Traffic"
+#~ msgstr "ترافیک تجمعی تیم"
+
+#~ msgid "Enter team invite code"
+#~ msgstr "کد دعوت تیم را وارد کنید"
+
+#, fuzzy
+#~| msgid "Producers"
+#~ msgid "Producers Request"
+#~ msgstr "تولید کنندگان"
+
+#, fuzzy
+#~| msgid "Team Performance"
+#~ msgid "Team performance on %s"
+#~ msgstr "عملکرد تیم"
+
+#~ msgid "Content Managers"
+#~ msgstr "مدیران محتوا"
+
+#, fuzzy
+#~| msgid "Pages"
+#~ msgid "Page Clicks"
+#~ msgstr "صفحات"
+
+#~ msgid "Search Console & Mode Configuration"
+#~ msgstr "پیکربندی سرچ کنسول و مود"
+
+#~ msgid ""
+#~ "%s can not gather pages traffic data until you enter your credentials in "
+#~ "the %s."
+#~ msgstr ""
+#~ "تا زمانی که اطلاعات مربوطه در %s را وارد نکرده‌اید، %s قادر به جمع‌اوری "
+#~ "دیتای ترافیکی صفحات نخواهد بود ."
+
+#~ msgid "Have"
+#~ msgstr "دارد"
+
+#~ msgid "Download Now!"
+#~ msgstr "دانلود"
+
+#~ msgid "Upload"
+#~ msgstr "آپلود"
+
+#~ msgid "Tracking"
+#~ msgstr "پیگیری"
+
+#~ msgid "Subjects"
+#~ msgstr "موضوعات"
+
+#~ msgid "Subject for products"
+#~ msgstr "موضوغع برای محصولات"
+

@@ -1,0 +1,67 @@
+<div class="dashboard-widget orders">
+    <div class="widget-title">
+        <i class="fas fa-shopping-cart"></i>
+        {{ __('Orders', 'dokan-lite') }}
+    </div>
+
+    <div class="content-half-part">
+        <ul class="list-unstyled list-count">
+            <li>
+                <a href="<?php echo esc_url( $orders_url ); ?>">
+                    <span class="title">{{ __('Total', 'dokan-lite') }}</span>
+                    <span class="count">{{ orders_count.total|number|raw }}</span>
+                </a>
+            </li>
+            {% for order in order_data %}
+                <li>
+                    <a href="<?php echo esc_url( $completed_url ); ?>"
+                       style="color: {{ order.color|esc_attr }}">
+                        <span class="title">{{ order.title|raw }}</span>
+                        <span class="count">
+                            {{ orders_count['']|number|raw }}
+                        </span>
+                    </a>
+                </li>
+            {% endfor %}
+            <li>
+                <a href="<?php echo esc_url( $pending_url ); ?>"
+                   style="color: <?php echo esc_attr( $order_data[1]['color'] ); ?>">
+                    <span class="title"><?php esc_attr_e( 'Pending', 'dokan-lite' ); ?></span> <span
+                            class="count"><?php echo esc_html( number_format_i18n( $orders_count->{'wc-pending'}, 0 ) ); ?></span>
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo esc_url( $processing_url ); ?>"
+                   style="color: <?php echo esc_attr( $order_data[2]['color'] ); ?>">
+                    <span class="title"><?php esc_attr_e( 'Processing', 'dokan-lite' ); ?></span> <span
+                            class="count"><?php echo esc_html( number_format_i18n( $orders_count->{'wc-processing'}, 0 ) ); ?></span>
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo esc_url( $cancelled_url ); ?>"
+                   style="color: <?php echo esc_attr( $order_data[3]['color'] ); ?>">
+                    <span class="title"><?php esc_html_e( 'Cancelled', 'dokan-lite' ); ?></span> <span
+                            class="count"><?php echo esc_html( number_format_i18n( $orders_count->{'wc-cancelled'}, 0 ) ); ?></span>
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo esc_url( $refunded_url ); ?>"
+                   style="color: <?php echo esc_attr( $order_data[4]['color'] ); ?>">
+                    <span class="title"><?php esc_html_e( 'Refunded', 'dokan-lite' ); ?></span> <span
+                            class="count"><?php echo esc_html( number_format_i18n( $orders_count->{'wc-refunded'}, 0 ) ); ?></span>
+                </a>
+            </li>
+            <li>
+                <a href="<?php echo esc_url( $on_hold_url ); ?>"
+                   style="color: <?php echo esc_attr( $order_data[5]['color'] ); ?>">
+                    <span class="title"><?php esc_html_e( 'On hold', 'dokan-lite' ); ?></span> <span
+                            class="count"><?php echo esc_html( number_format_i18n( $orders_count->{'wc-on-hold'}, 0 ) ); ?></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="content-half-part">
+        <canvas id="order-stats"></canvas>
+    </div>
+</div>
+
