@@ -4,4 +4,4 @@
     |             693b5a611c047             |
     |_______________________________________|
 */
- namespace Pmpr\Custom\Golshiftegan; use Pmpr\Common\Foundation\Container\Container as BaseClass; class Container extends BaseClass { }
+ namespace Pmpr\Custom\Golshiftegan\Plugin\Woocommerce\Email; class CustomerApprovedOrder extends Email { }

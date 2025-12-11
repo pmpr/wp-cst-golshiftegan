@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Custom Pmpr\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2025-12-08 14:49+0330\n"
+"POT-Creation-Date: 2025-12-12 02:18+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -28,59 +28,141 @@ msgstr ""
 msgid "Golshiftegan Custom"
 msgstr "سفارشی گلشیفتگان"
 
-#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:62
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:113
 #: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:48
 msgctxt "Order status"
 msgid "Failed"
 msgstr "پراخت ناموفق"
 
-#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:66
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:117
 #: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:24
 msgctxt "Order status"
 msgid "Pending payment"
 msgstr "در انتظار پرداخت"
 
-#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:70
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:121
 #: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:40
 msgctxt "Order status"
 msgid "Shipped"
 msgstr "ارسال شده"
 
-#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:74
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:125
 #: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:32
 msgctxt "Order status"
 msgid "Approved"
 msgstr "تایید شده"
 
-#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:78
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:129
 #: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:56
 msgctxt "Order status"
 msgid "Refunded"
 msgstr "مرجوع شده"
 
-#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:82
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:133
 #: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:36
 msgctxt "Order status"
 msgid "Preparing"
 msgstr "در حال آماده سازی"
 
-#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:86
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:137
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/SellerDashboard.php:68
 #: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:44
 msgctxt "Order status"
 msgid "Delivered"
 msgstr "تحویل مشتری"
 
-#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:90
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:141
 #: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:52
 msgctxt "Order status"
 msgid "Cancelled"
 msgstr "لغو شده"
 
-#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:94
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/Order.php:145
 #: src/Pmpr/Custom/Golshiftegan/Traits/OrderTrait.php:28
 msgctxt "Order status"
 msgid "Pending approval"
 msgstr "در انتظار تایید"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/SellerDashboard.php:86
+msgid "You do not have sufficient permissions to access this page."
+msgstr "شما مجوز کافی برای دسترسی به این صفحه را ندارید."
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/SellerDashboard.php:90
+msgid "You have taken too long. Please go back and retry."
+msgstr "شما بیش از حد منتظر مانده اید. لطفا برگردید و دوباره سعی کنید."
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Dokan/SellerDashboard.php:99
+msgid "You do not have permission to change this order"
+msgstr "شما مجوز تغییر این سفارش را ندارید"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Email/CustomerDeliveredOrder.php:17
+msgid "Delivered Order"
+msgstr "سفارش تحویل مشتری"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Email/CustomerDeliveredOrder.php:27
+msgid ""
+"Send an email to customers notifying them that their order is delivered and "
+"has been shipped"
+msgstr ""
+"برای مشتریان ایمیلی ارسال کنید و اطلاع دهید که سفارش آن‌ها تحویل داده شده و "
+"ارسال آن تکمیل شده است"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Email/CustomerDeliveredOrder.php:28
+msgid ""
+"Delivered Order emails are sent to customers when their orders are marked "
+"delivered and usually indicate that their orders have been shipped."
+msgstr ""
+"ایمیل‌های «تحویل مشتری» زمانی برای مشتریان ارسال می‌شوند که سفارش آن‌ها در وضعیت "
+"«تحویل مشتری» قرار گیرد و معمولاً نشان می‌دهد که سفارش آن‌ها ارسال شده است."
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Email/CustomerPendingApprovalOrder.php:26
+msgid "Order Pending Approval"
+msgstr "سفارش در انتظار تایید"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Email/CustomerPendingApprovalOrder.php:35
+msgid ""
+"Send an email to customers notifying them when their order has been placed on "
+"pending approval"
+msgstr ""
+"ارسال یک ایمیل به مشتریان و اطلاع دادن به آن‌ها زمانی که شفارش‌شان در وضعیت در "
+"انتظار تایید قرار گرفت"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Email/CustomerPendingApprovalOrder.php:36
+msgid ""
+"This is an order notification sent to customers containing order details after "
+"an order is placed pending-approval from Pending, Cancelled or Failed order "
+"status."
+msgstr ""
+"این یک اعلان سفارش است که پس از تغییر وضعیت از در حال انتظار، لغو شده یا "
+"ناموفق، به در انتظار تأیید برای مشتریان ارسال می‌شود و حاوی جزئیات سفارش است."
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Email/Email.php:100
+msgid "Your {site_title} order has been received!"
+msgstr "سفارش شما در {site_title} دریافت شد!"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Email/Email.php:111
+msgid "Thank you for your order"
+msgstr "از سفارش شما متشکریم"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Email/Email.php:123
+msgid ""
+"Thanks again! If you need any help with your order, please contact us at "
+"{store_email}."
+msgstr ""
+"متشکرم! اگر در مورد سفارش خود به هرگونه کمکی نیاز دارید، از طریق {store_email} "
+"با ما تماس بگیرید."
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Email/Email.php:124
+msgid "We look forward to fulfilling your order soon."
+msgstr "ما مشتاقانه منتظر پاسخ شما به زودی هستیم."
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Order.php:46
+msgid "Change status to pending approval"
+msgstr "تغییر وضعیت به در انتظار تایید"
+
+#: src/Pmpr/Custom/Golshiftegan/Plugin/Woocommerce/Order.php:47
+msgid "Change status to delivered"
+msgstr "تغییر وضعیت به تحویل مشتری"
 
 #: template/php/plugin/dokan/dashboard/orders-widget.php:5
 msgid "Orders"
@@ -340,8 +422,7 @@ msgstr "جمع کل"
 
 #~ msgid "Something is wrong, can not update you profile, please contact us."
 #~ msgstr ""
-#~ "مشکلی وجود دارد، نمی توان پروفایل شما را به روز کرد، لطفاً با ما تماس "
-#~ "بگیرید."
+#~ "مشکلی وجود دارد، نمی توان پروفایل شما را به روز کرد، لطفاً با ما تماس بگیرید."
 
 #~ msgid "Additional information update successfully."
 #~ msgstr "اطلاعات تکمیلی با موفقیت به روزرسانی شد."
@@ -448,8 +529,8 @@ msgstr "جمع کل"
 
 #, php-format
 #~ msgid ""
-#~ "The value of this field cannot be edited after it is saved and confirmed "
-#~ "by %s."
+#~ "The value of this field cannot be edited after it is saved and confirmed by "
+#~ "%s."
 #~ msgstr "مقدار این فیلد پس از ذخیره و تایید از سوی %s، غیر قابل ویرایش است."
 
 #~ msgid "Content Production"
@@ -465,8 +546,8 @@ msgstr "جمع کل"
 #~ msgstr "عملکرد محتوایی من"
 
 #~ msgid ""
-#~ "See how many posts you’ve produced and track your daily, weekly and "
-#~ "monthly producing trends."
+#~ "See how many posts you’ve produced and track your daily, weekly and monthly "
+#~ "producing trends."
 #~ msgstr ""
 #~ "تعداد صفحات نوشته شده و روند پیشرفت روزانه، هفتگی و ماهانه خود را مشاهده "
 #~ "کنید."
@@ -485,11 +566,11 @@ msgstr "جمع کل"
 #~ msgstr "عملکرد محتوایی دیگر کاربران"
 
 #~ msgid ""
-#~ "See how other users are performing and compare their daily producing "
-#~ "trends with yours."
+#~ "See how other users are performing and compare their daily producing trends "
+#~ "with yours."
 #~ msgstr ""
-#~ "عملکرد صفحات نوشته شده سایر کاربران را مشاهده کرده و روند پیشرفت آن‌ها را "
-#~ "با خودتان مقایسه کنید."
+#~ "عملکرد صفحات نوشته شده سایر کاربران را مشاهده کرده و روند پیشرفت آن‌ها را با "
+#~ "خودتان مقایسه کنید."
 
 #~ msgid "Other Teams Performance"
 #~ msgstr "عملکرد محتوایی دیگر تیم‌ها"
@@ -824,8 +905,7 @@ msgstr "جمع کل"
 #~ msgstr "تعداد نوشته‌ها"
 
 #~ msgid "Ask search engines to crawl this team content"
-#~ msgstr ""
-#~ "از موتورهای جستجو درخواست کن تا محتوای مربوط به این تیم را بررسی کنند"
+#~ msgstr "از موتورهای جستجو درخواست کن تا محتوای مربوط به این تیم را بررسی کنند"
 
 #~ msgid "Post Type"
 #~ msgstr "نوع نوشته"
@@ -850,9 +930,6 @@ msgstr "جمع کل"
 
 #~ msgid "Published Posts"
 #~ msgstr "منتشر شده‌ها"
-
-#~ msgid "You do not have the required permissions to perform this action."
-#~ msgstr "شما مجوز لازم برای انجام این عملیات را ندارید."
 
 #~ msgid "Cancel Edit Needed"
 #~ msgstr "انصراف از اصلاح"
@@ -934,13 +1011,12 @@ msgstr "جمع کل"
 #~ msgstr "درخواست اصلاح نوشته با موفقیت لغو شد."
 
 #~ msgid ""
-#~ "Post submitted for correction successfully. the content producer will "
-#~ "again have the opportunity to complete or make further changes to the post "
-#~ "and also resubmit it for review."
+#~ "Post submitted for correction successfully. the content producer will again "
+#~ "have the opportunity to complete or make further changes to the post and "
+#~ "also resubmit it for review."
 #~ msgstr ""
-#~ "نوشته با موفقیت برای اصلاح ارسال شد، کاربر محتوا مجددا امکان تکمیل یا "
-#~ "اعمال تغییرات بیشتر در نوشته و همچنین ارسال دوباره آن برای بازبینی را "
-#~ "خواهد داشت."
+#~ "نوشته با موفقیت برای اصلاح ارسال شد، کاربر محتوا مجددا امکان تکمیل یا اعمال "
+#~ "تغییرات بیشتر در نوشته و همچنین ارسال دوباره آن برای بازبینی را خواهد داشت."
 
 #~ msgid ""
 #~ "This revision has been submitted for review and cannot be deleted. Please "
@@ -978,8 +1054,8 @@ msgstr "جمع کل"
 #~ "If you reject the revision, the content producer, will be given access to "
 #~ "make more changes to the revision."
 #~ msgstr ""
-#~ "در صورت رد رونوشت، کاربر محتوا، مجددا امکان تکمیل یا اعمال تغییرات بیشتر "
-#~ "در رونوشت را خواهد داشت."
+#~ "در صورت رد رونوشت، کاربر محتوا، مجددا امکان تکمیل یا اعمال تغییرات بیشتر در "
+#~ "رونوشت را خواهد داشت."
 
 #~ msgid "Yes, reject it!"
 #~ msgstr "بله، رد شود!"
@@ -988,9 +1064,8 @@ msgstr "جمع کل"
 #~ msgstr "پذیرفتن رونوشت"
 
 #~ msgid ""
-#~ "Are you sure you want to approve this revision? This action is "
-#~ "irreversible and the revision content will replace the published version "
-#~ "permanently."
+#~ "Are you sure you want to approve this revision? This action is irreversible "
+#~ "and the revision content will replace the published version permanently."
 #~ msgstr ""
 #~ "ایا مطمئنید که می‌خواهید این رونوشت را تایید کنید؟ این عملیات غیر قابل "
 #~ "بازگشت بوده و محتوای رونوشت جایگزین نسخه منتشر شده، خواهد شد."
@@ -1015,8 +1090,7 @@ msgstr "جمع کل"
 #~ msgstr "حذف رونوشت"
 
 #~ msgid ""
-#~ "Are you sure you want to delete this revision? This action cannot be "
-#~ "undone!"
+#~ "Are you sure you want to delete this revision? This action cannot be undone!"
 #~ msgstr ""
 #~ "آیا مطمئنید که می‌خواهید این نسخه را حذف کنید؟ این عمل قابل بازگشت نیست!"
 
@@ -1055,8 +1129,8 @@ msgstr "جمع کل"
 #~ "This revision has been submitted for review and cannot be modified. Please "
 #~ "cancel the submission first."
 #~ msgstr ""
-#~ "این رونوشت برای بازبینی ارسال شده و قابل ویرایش نیست. لطفا ابتدا ارسال "
-#~ "برای بازبینی را لغو کنید."
+#~ "این رونوشت برای بازبینی ارسال شده و قابل ویرایش نیست. لطفا ابتدا ارسال برای "
+#~ "بازبینی را لغو کنید."
 
 #~ msgid "Can not do this, because this post, already has a revision."
 #~ msgstr ""
@@ -1312,8 +1386,7 @@ msgstr "جمع کل"
 #~ msgstr "طبقه‌بندی"
 
 #~ msgid "Determine which taxonomy used as subdomain."
-#~ msgstr ""
-#~ "مشخص کنید کدام نوع طبقه‌بندی به عنوان ساب‌دامین مورد استفاده قرار گیرد."
+#~ msgstr "مشخص کنید کدام نوع طبقه‌بندی به عنوان ساب‌دامین مورد استفاده قرار گیرد."
 
 #~ msgid "Download List"
 #~ msgstr "لیست دانلود"
@@ -1437,9 +1510,6 @@ msgstr "جمع کل"
 
 #~ msgid "Your request is invalid."
 #~ msgstr "درخواست شما نامعتبر است."
-
-#~ msgid "You do not have the necessary permission to do this."
-#~ msgstr "شما مجوز لازم برای انجام این کار را ندارید."
 
 #~ msgid "Review dehighlighted."
 #~ msgstr "لغو برجسته‌سازی نقد و بررسی."
@@ -1709,8 +1779,8 @@ msgstr "جمع کل"
 #~ "%s can not gather pages traffic data until you enter your credentials in "
 #~ "the %s."
 #~ msgstr ""
-#~ "تا زمانی که اطلاعات مربوطه در %s را وارد نکرده‌اید، %s قادر به جمع‌اوری "
-#~ "دیتای ترافیکی صفحات نخواهد بود ."
+#~ "تا زمانی که اطلاعات مربوطه در %s را وارد نکرده‌اید، %s قادر به جمع‌اوری دیتای "
+#~ "ترافیکی صفحات نخواهد بود ."
 
 #~ msgid "Have"
 #~ msgstr "دارد"
