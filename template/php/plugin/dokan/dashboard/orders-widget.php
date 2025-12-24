@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             693b611fac7be             |
+    |             694c4d407b242             |
     |_______________________________________|
 */
  $oqseeekuqisekiwy = pr_get_dokan_template_params('statuses', []); ?>

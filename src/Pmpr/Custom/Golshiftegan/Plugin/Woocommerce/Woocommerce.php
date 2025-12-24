@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             693b611fac7be             |
+    |             694c4d407b242             |
     |_______________________________________|
 */
  namespace Pmpr\Custom\Golshiftegan\Plugin\Woocommerce; use Pmpr\Custom\Golshiftegan\Container; use Pmpr\Custom\Golshiftegan\Plugin\Woocommerce\Email\CustomerDeliveredOrder; use Pmpr\Custom\Golshiftegan\Plugin\Woocommerce\Email\CustomerPendingApprovalOrder; class Woocommerce extends Container { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu('plugins_loaded', [$this, 'icwcgmcoimqeigye']); } public function kgquecmsgcouyaya() { $this->cecaguuoecmccuse('woocommerce_email_actions', [$this, 'ssseucmygsciqouq'])->cecaguuoecmccuse('woocommerce_email_classes', [$this, 'qqwkkksyggaiuymq']); } public function mameiwsayuyquoeq() { Order::symcgieuakksimmu(); } public function icwcgmcoimqeigye() { CustomerDeliveredOrder::symcgieuakksimmu(); CustomerPendingApprovalOrder::symcgieuakksimmu(); } public function qqwkkksyggaiuymq($awwassyawiguwyua) { $awwassyawiguwyua['CustomerPendingApprovalOrder'] = CustomerPendingApprovalOrder::symcgieuakksimmu(); $awwassyawiguwyua['CustomerDeliveredOrder'] = CustomerDeliveredOrder::symcgieuakksimmu(); return $awwassyawiguwyua; } public function ssseucmygsciqouq($ccowyogiqwikkkie) { $ccowyogiqwikkkie[] = 'woocommerce_order_status_delivered'; $ccowyogiqwikkkie[] = 'woocommerce_order_status_failed_to_pending-approval'; $ccowyogiqwikkkie[] = 'woocommerce_order_status_cancelled_to_pending-approval'; $ccowyogiqwikkkie[] = 'woocommerce_order_status_pending_to_pending-approval'; return $ccowyogiqwikkkie; } }
